@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+html, div, h1, h2, h3, h4, h5, h6, img {} 
+/*height for HTML and BODY set the maximum size of a window*/
+/*ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section,  { display: block; } */
+
+p{ 
+	font-family: "Georgia";
+	color: white;
+	}
+body{
+	max-width: 1348px; 
+	height: auto;
+	}
+
+hr {
+	height: 2px;
+	width: 200px;
+	color: #C00;
+}
+h1{
+	font-family: "Futura";
+	color: red;
+	text-align: center;
+}
+
+.menu{
+	width: 1300px;
+	height: 105px;
+	background-color: #5F9EA0;
+	padding-top: 10px;
+}
+
+
+#container {
+	width: 1300px;
+	height: 632px;
+	background-color: #ADD8E6;
+	margin-right: auto;
+	margin-left: auto;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+	}
+
+#leftColumn {
+	width: 500px;
+	height: 515px;
+	float: left;
+	background: black; /*yellow*/
+	margin-right: 40px;
+	visibility: visible;
+	float: left;
+	/*margin-top: 1%;
+	margin-right: 1%;*/
+	}
+#img {
+	width: 400px;
+	height: auto;
+	margin-top: 46px;*/
+	margin-right: 50px;
+	margin-left: 50px;
+	}
+#rightColumn {
+	width: 680px;
+	height: 515px;
+	/*background: #CFF; yellow*/
+	visibility: visible;
+	overflow: hidden;
+	float: left;
+	font-family: "Georgia"; 
+	font-size: 18px;
+	/*padding-bottom: 30px;*/
+	}
+#rightColumnSmall {
+	width: 480px;
+	height: 240px;
+	background: #CFF; /*yellow*/
+	visibility: hidden;
+	float: left;
+	font-family: "Georgia";
+	/*overflow: scroll;*/
+	}	
+
+
+@media screen and (max-width: 600px) { /*looks at viewport and anything below can be modified*/
+
+h1{
+	font-family: "Futura";
+	color: red;
+	text-align: center;
+}
+
+.menu{
+	width: 340px;
+	height: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-right: 
+	background-color: white;
+}
+
+.center{
+	display: block;
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container {
+	width: 360px;
+	height: 760px;
+	background-color: #ADD8E6;
+	margin-right: auto;
+	margin-left: auto;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+	}
+#leftColumn {
+	width: 360px;
+	height: 510px;
+	float: left;
+	background: black; 
+	margin-right: 0px;
+	margin-left: 0px;
+	visibility: visible;
+	float: left;
+	/*margin-top: 1%;
+	margin-right: 1%;*/
+	}
+#imgHold {
+	width: 240px;
+	height: auto;
+	margin-top: 46px;
+	margin-right: 50px;
+	margin-left: 50px;
+	}
+#rightColumn {
+	width: 340px;
+	height: 340px;
+	/*background: #CFF; cyan*/
+	visibility: hidden;
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+	padding: 0px;*
+	}
+#rightColumnSmall {
+	width: 340px;
+	height: auto;
+	background: #4682B4; /*cyan*/
+	visibility: visible;
+	padding: 10px;
+	float: left;
+	/*overflow: scroll;*/
+	}	
+
+}
