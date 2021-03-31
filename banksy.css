@@ -88,7 +88,7 @@ h1{
 	}	
 
 
-@media screen and (max-width: 600px) { /*looks at viewport and anything below can be modified*/
+@media screen and (max-width: 500px) { /*looks at viewport and anything below can be modified*/
 
 h1{
 	font-family: "Futura";
